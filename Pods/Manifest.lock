@@ -1,0 +1,19 @@
+PODS:
+  - TSNAtomicFlag (1.0)
+  - TSNExtensions (1.0.5)
+  - TSNLogger (1.2.4)
+  - TSNPerf (1.1)
+
+DEPENDENCIES:
+  - TSNAtomicFlag
+  - TSNExtensions
+  - TSNLogger
+  - TSNPerf
+
+SPEC CHECKSUMS:
+  TSNAtomicFlag: b7d664aa2c49beaa4510a87e09e8b93f1cfea532
+  TSNExtensions: cf0a9d30be0f8be43d9d6a9fd99806ef4407e318
+  TSNLogger: e6efbc4ca5004b02ebe76b8b696c557cbf0573ea
+  TSNPerf: 3850a9bd6cfb7418bbed14a2361fa247f1b3df91
+
+COCOAPODS: 0.36.1
