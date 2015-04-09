@@ -184,8 +184,7 @@
     
     // The newest message date type.
     CBUUID * _newestMessageDateType;
-        
-
+    
 //    // The data type.
 //    CBUUID * _dataType;
 //
