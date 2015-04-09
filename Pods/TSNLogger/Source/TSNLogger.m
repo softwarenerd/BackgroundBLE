@@ -51,12 +51,25 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
 // TSNLoggerNewLogEntryNotificationName callback.
 - (void)loggerNewLogEntryNotificationCallback:(NSNotification *)notification;
 
+// Adds a log entry.
+- (void)addLogEntry:(NSString *)logEntry;
+
 @end
 
 // TSNLoggerView implementation.
 @implementation TSNLoggerView
 {
 @private
+    // The log mutex.
+    pthread_mutex_t _mutexLog;
+    
+    // A value which indicates whether the web view was loaded.
+    BOOL _webViewLoaded;
+    
+    // The array of pending log entries. These are log entries that arrived before the
+    // web view was loaded.
+    NSMutableArray * _arrayPendingLogEntries;
+    
     // The web view that displays the log entries.
     UIWebView * _webView;
 }
@@ -77,6 +90,8 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
     }
     
     // Initialize.
+    pthread_mutex_init(&_mutexLog, NULL);
+    _arrayPendingLogEntries = [[NSMutableArray alloc] init];
     [self setOpaque:NO];
     [self setBackgroundColor:backgroundColor];
     [self setAutoresizesSubviews:YES];
@@ -117,7 +132,7 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
                            function addLogEntry(logEntry, maxEntries) {\
                                var wasScrolledBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight;\
                                var logEntries = document.getElementsByClassName('logEntry');\
-                               if (logEntries.length >= maxEntries) {\
+                               if (logEntries && logEntries.length >= maxEntries) {\
                                    for (i = 0; i < logEntries.length - maxEntries; i++) {\
                                        document.body.removeChild(logEntries[i]);\
                                    }\
@@ -132,9 +147,7 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
                            }\
                            </script>\
                            </head>\
-                           <body style=\"color: rgba(%u, %u, %u, %u); font-family: Menlo-Regular; font-size: 8pt; word-wrap: break-word; -webkit-text-size-adjust: none;\">\
-                           </body>\
-                           </html>",
+                           <body style=\"color: rgba(%u, %u, %u, %u); font-family: Menlo-Regular; font-size: 8pt; word-wrap: break-word; -webkit-text-size-adjust: none;\">",
                            foregroundValR,
                            foregroundValG,
                            foregroundValB,
@@ -182,8 +195,21 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
 // Notifies the delegate that the web view finished loading.
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    // After the initial log HTML document has loaded, scroll the window to the bottom.
-    [_webView stringByEvaluatingJavaScriptFromString:@"window.scrollTo(0, document.body.scrollHeight);"];
+    // Lock.
+    pthread_mutex_lock(&_mutexLog);
+    
+    // Handle the web view loading.
+    if (!_webViewLoaded)
+    {
+        _webViewLoaded = YES;
+        for (NSString * logEntry in _arrayPendingLogEntries)
+        {
+            [self addLogEntry:logEntry];
+        }
+    }
+
+    // Unlock.
+    pthread_mutex_unlock(&_mutexLog);
 }
 
 @end
@@ -194,11 +220,30 @@ NSString * const TSNLoggerNewLogEntryNotificationName = @"org.softwarenerd.newlo
 // TSNLogEntryNotification callback.
 - (void)loggerNewLogEntryNotificationCallback:(NSNotification *)notification
 {
+    // Lock.
+    pthread_mutex_lock(&_mutexLog);
+    
+    // If the web view is loaded, add the log entry; otherwise, add it to pending log entries.
+    if (_webViewLoaded)
+    {
+        pthread_mutex_unlock(&_mutexLog);
+        [self addLogEntry:[notification object]];
+    }
+    else
+    {
+        [_arrayPendingLogEntries addObject:[notification object]];
+        pthread_mutex_unlock(&_mutexLog);
+    }
+}
+
+// Adds a log entry.
+- (void)addLogEntry:(NSString *)logEntry
+{
     dispatch_async(dispatch_get_main_queue(), ^{
-        NSMutableString * logEntry = [NSMutableString stringWithString:[notification object]];
-        [logEntry replaceOccurrencesOfString:@"\n" withString:@"<br/>" options:0 range:NSMakeRange(0, [logEntry length])];
-        [logEntry replaceOccurrencesOfString:@" " withString:@"&nbsp;" options:0 range:NSMakeRange(0, [logEntry length])];
-        [_webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"addLogEntry('%@', %lu);", logEntry, (unsigned long)[[TSNLogger singleton] maxLogEntries]]];
+        NSMutableString * logEntryString = [NSMutableString stringWithString:logEntry];
+        [logEntryString replaceOccurrencesOfString:@"\n" withString:@"<br/>" options:0 range:NSMakeRange(0, [logEntryString length])];
+        [logEntryString replaceOccurrencesOfString:@" " withString:@"&nbsp;" options:0 range:NSMakeRange(0, [logEntryString length])];
+        [_webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"addLogEntry('%@', %lu);", logEntryString, (unsigned long)[[TSNLogger singleton] maxLogEntries]]];
     });
 }
 

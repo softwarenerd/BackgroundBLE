@@ -26,24 +26,10 @@
 //
 
 #import <TSNLogger.h>
-#import <TSNThreading.h>
 #import "TSNAppContext.h"
 #import "TSNAppDelegate.h"
 #import "TSNAppWindow.h"
 #import "TSNAppViewController.h"
-
-// Logging.
-static inline void Log(NSString * format, ...)
-{
-    // Format the log entry.
-    va_list args;
-    va_start(args, format);
-    NSString * formattedString = [[NSString alloc] initWithFormat:format arguments:args];
-    va_end(args);
-    
-    // Append the log entry.
-    TSNLog([NSString stringWithFormat:@"          TSNAppDelegate: %@", formattedString]);
-}
 
 // TSNAppDelegate (UIApplicationDelegate) interface.
 @interface TSNAppDelegate (UIApplicationDelegate) <UIApplicationDelegate>
@@ -73,18 +59,16 @@ static inline void Log(NSString * format, ...)
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Set-up the run.
     [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
-
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
  
     // Configure logger.
     TSNLogger * logger = [TSNLogger singleton];
-    [logger setMaxLogEntries:500];
+    [logger setMaxLogEntries:2000];
     [logger setWriteToAppleSystemLog:YES];
         
-    // On iOS 8, register the user notification settings we use. This will prompt the user once.
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
+    // Register the user notification settings we use. This will prompt the user once.
     if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)])
     {
         UIUserNotificationType types = UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound;
@@ -92,7 +76,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
                                                                                                   categories:nil];
         [[UIApplication sharedApplication] registerUserNotificationSettings:userNotificationSettings];
     }
-#endif
     
     // Allocate and initialize the app window.
     _appWindow = [[TSNAppWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -114,31 +97,26 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 // Tells the delegate that the application is about to become inactive.
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    Log(@"Application will resign active");
 }
 
 // Tells the delegate that the application is now in the background.
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    Log(@"Application did enter background");
 }
 
 // Tells the delegate that the application is about to enter the foreground.
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    Log(@"Application will enter foreground");
 }
 
 // Tells the delegate that the application has become active.
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    Log(@"Application did become active");
 }
 
 // Tells the delegate when the application is about to terminate.
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    Log(@"Application will terminate");
 }
 
 @end

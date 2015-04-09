@@ -7,436 +7,365 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C4DE5498A865878B2FD409 /* TSNLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C65D397A9B0847DEA25CCD41 /* TSNLogger.h */; };
-		0607E5ECCEBD5C2C38738704 /* UIView+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 491D5141CD75431D80FA5C26 /* UIView+Extensions.h */; };
-		0CF110858F7F6C03B9AF3797 /* Pods-TSNAtomicFlag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C71F6106A88B3FB4D544D6 /* Pods-TSNAtomicFlag-dummy.m */; };
-		19EB7260D5C92E7EA9426F1B /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 685B184D33BB550EF08D30CE /* UIView+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		1A3A1691B76298F580DA1FDE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905DBB21DD5106F4EE17B63 /* Pods-dummy.m */; };
-		25AAD8C248167065E617C5F5 /* Pods-TSNLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DAE2C4785EEA52D8AA5E0 /* Pods-TSNLogger-dummy.m */; };
-		293235169C3373C3812C7015 /* TSNPerf.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FD8B196221E306409E42EF /* TSNPerf.h */; };
-		296DBD4D460D67684ACB35E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087299798100C5EC825DDB2A /* UIKit.framework */; };
-		2BC979F82CE4D2A32EF9E59E /* UIColor+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EF896EC9F15AC2116E918C /* UIColor+Extensions.h */; };
-		32A1330DECDCAA8073173F87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087299798100C5EC825DDB2A /* UIKit.framework */; };
-		37BCBCF9BBE54743F2A2C795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8788F4FBF2EC76E471955 /* Foundation.framework */; };
-		44AEC0ECFCC17B2B87719F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8788F4FBF2EC76E471955 /* Foundation.framework */; };
-		4DA75450BF0E086D44122C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8788F4FBF2EC76E471955 /* Foundation.framework */; };
-		64EE749D5CBA6C4819CA01F8 /* TSNAtomicFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6F75BAD9A539663B99238 /* TSNAtomicFlag.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		67185C35CCA57DBFE17FC8DC /* TSNAtomicFlag.h in Headers */ = {isa = PBXBuildFile; fileRef = 436E8B96D7D3A7D7168320EF /* TSNAtomicFlag.h */; };
-		68324AA7EF536238DBC2FF25 /* TSNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76F40A68B4FEDCAD0F2B9A /* TSNLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		6B13C1AF0F32733BF9F92AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8788F4FBF2EC76E471955 /* Foundation.framework */; };
-		6F4A8650905AF7A774F88968 /* Pods-TSNPerf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B02565AEC95A595FA6571B7 /* Pods-TSNPerf-dummy.m */; };
-		A07CF796C5C0DE50505DAC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8788F4FBF2EC76E471955 /* Foundation.framework */; };
-		C3E9A4968AD8EB03E20D9F6D /* TSNThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 2459A45AC492007D68850391 /* TSNThreading.h */; };
-		D8DE77EF218E33D8AA5A46C6 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F220C3536D0C7A1B757401DD /* UIColor+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		E2C55C25C21CFF7831A2BC68 /* Pods-TSNExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA694E3D397785061794A3 /* Pods-TSNExtensions-dummy.m */; };
-		FA066DDDD9AF2F8CCC007343 /* TSNPerf.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AA296035E5B933EC0FA90 /* TSNPerf.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		01D49D3B26533BAE783FF09C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95B6239E0A8463783113A8E /* UIKit.framework */; };
+		09D28417DD34A1F8E333F03D /* TSNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69AF49B5CAC1695B10EB2C /* TSNLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		153A25C8A0036776EF4A4FBC /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763B72E8CCBDDCDE13A1841 /* UIView+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1C9111337A2839C16B40A4B8 /* UIColor+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 905AE8ADCA7F62451C5025FF /* UIColor+Extensions.h */; };
+		1EC9F1C021D41599DD5B0C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5807AA1FE65A158B3D2AF /* Foundation.framework */; };
+		31AB2F697D5390EEC1496AA3 /* Pods-TSNExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25C6100B2659AA3E4EE1925 /* Pods-TSNExtensions-dummy.m */; };
+		35C34BC336E360939AEB71CB /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B1A0E531B5BDBB9F5DBAE1 /* UIColor+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		368FB7DF703967A7D634AE34 /* TSNPerf.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8F94C5A69DC41BFF35C206 /* TSNPerf.h */; };
+		3F265F3F164767A83E7E2C99 /* TSNPerf.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ECDC225327B33C954C96BB /* TSNPerf.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		3FAFEFC05E8AA94CE3ED32B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95B6239E0A8463783113A8E /* UIKit.framework */; };
+		4413BF9F38FB4972708D20E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5807AA1FE65A158B3D2AF /* Foundation.framework */; };
+		5375BE5765AD9EDDAFB006FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5807AA1FE65A158B3D2AF /* Foundation.framework */; };
+		66829215E2A8927046C739BE /* UIView+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1ED51F698678C7CBB0BD4F /* UIView+Extensions.h */; };
+		900684C6D0DD9ADBFC678F74 /* Pods-TSNLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB73184069009FE011FF4A /* Pods-TSNLogger-dummy.m */; };
+		90BA52F94E63A59A94AE30D5 /* TSNThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 292EF16DAF7B4305FEF55741 /* TSNThreading.h */; };
+		A2ABD0EC19FD7A0449C0D15F /* TSNAtomicFlag.h in Headers */ = {isa = PBXBuildFile; fileRef = 1251A61F526E38A122288120 /* TSNAtomicFlag.h */; };
+		BA06644A1E03E32A60F4289F /* Pods-TSNPerf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3E2E1BD0B483557935781 /* Pods-TSNPerf-dummy.m */; };
+		D2EF17D28B676504B2014396 /* TSNAtomicFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EA30A6ED656260AC43D3C /* TSNAtomicFlag.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		DB8E6B46F42E14FB7FF8B05C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC7CD746EBE510D18AFEBF /* Pods-dummy.m */; };
+		E3DA73D6147854089157884F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5807AA1FE65A158B3D2AF /* Foundation.framework */; };
+		E49E505239923ED77BD22F9A /* TSNLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEF2AEE461A06EC7ECB7804 /* TSNLogger.h */; };
+		F25E262F9BBC0019CAE0FD54 /* Pods-TSNAtomicFlag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC34618DDBFEC07F7E6530 /* Pods-TSNAtomicFlag-dummy.m */; };
+		F764E7FF77834CC3407A8293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5807AA1FE65A158B3D2AF /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23B7D9467131FB80A150D19A /* PBXContainerItemProxy */ = {
+		5800DED3CED05FDBFABC8125 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 95EA6F988056BABB9FEB668D /* Project object */;
+			containerPortal = AC0048B6A01A8BDBEEDBFD38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E055092759741E4E15ABEEED;
-			remoteInfo = "Pods-TSNAtomicFlag";
-		};
-		29570345D65B8AFE78339FF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95EA6F988056BABB9FEB668D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13D77D29A28FB717F65EDD54;
+			remoteGlobalIDString = BF5BBBE991520C12157E40E2;
 			remoteInfo = "Pods-TSNLogger";
 		};
-		8621B099EA2E8DDF7061EAF3 /* PBXContainerItemProxy */ = {
+		95BD023ADF4B8F7697FDA1BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 95EA6F988056BABB9FEB668D /* Project object */;
+			containerPortal = AC0048B6A01A8BDBEEDBFD38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81332C7B9773505849BC9DF4;
-			remoteInfo = "Pods-TSNPerf";
+			remoteGlobalIDString = CC7620CFBF4872C5956DEBD6;
+			remoteInfo = "Pods-TSNAtomicFlag";
 		};
-		92EE6DDAACE4974B26276317 /* PBXContainerItemProxy */ = {
+		ED53F45F58662F4127E410D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 95EA6F988056BABB9FEB668D /* Project object */;
+			containerPortal = AC0048B6A01A8BDBEEDBFD38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7F556509ED6ABE1106909DF;
+			remoteGlobalIDString = 0B13BF5B51E9B3587638E8ED;
 			remoteInfo = "Pods-TSNExtensions";
+		};
+		FB77BC2176021D0121B1F94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0048B6A01A8BDBEEDBFD38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80654CDB007EF64D8352F9D8;
+			remoteInfo = "Pods-TSNPerf";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007368A44D00068607821FF3 /* Pods-TSNPerf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNPerf-prefix.pch"; sourceTree = "<group>"; };
-		02C6F75BAD9A539663B99238 /* TSNAtomicFlag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNAtomicFlag.m; path = Source/TSNAtomicFlag.m; sourceTree = "<group>"; };
-		03F5B2B7EC8E6F90CF276B89 /* libPods-TSNAtomicFlag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNAtomicFlag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		087299798100C5EC825DDB2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0905DBB21DD5106F4EE17B63 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		108C4F380774674AADF81B60 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		13D727255F3DEEB52E1C9C78 /* Pods-TSNAtomicFlag-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNAtomicFlag-Private.xcconfig"; sourceTree = "<group>"; };
-		18F7D71F66BED9A2FB3740B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		2042141AD67E35FDE3A02F89 /* Pods-TSNLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		2459A45AC492007D68850391 /* TSNThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNThreading.h; path = Source/TSNThreading.h; sourceTree = "<group>"; };
-		288A51186020F3488B7F1963 /* libPods-TSNLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CC9A1EEAB2E49080A041214 /* Pods-TSNExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNExtensions-prefix.pch"; sourceTree = "<group>"; };
-		2E1501E4282D354BE6466C71 /* Pods-TSNLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNLogger-prefix.pch"; sourceTree = "<group>"; };
-		2F4D3E2C2A252D5305657942 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		436E8B96D7D3A7D7168320EF /* TSNAtomicFlag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNAtomicFlag.h; path = Source/TSNAtomicFlag.h; sourceTree = "<group>"; };
-		491D5141CD75431D80FA5C26 /* UIView+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extensions.h"; path = "Source/UIView+Extensions.h"; sourceTree = "<group>"; };
-		4B02565AEC95A595FA6571B7 /* Pods-TSNPerf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNPerf-dummy.m"; sourceTree = "<group>"; };
-		4B8DAE2C4785EEA52D8AA5E0 /* Pods-TSNLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNLogger-dummy.m"; sourceTree = "<group>"; };
-		50471619D7C2911836358341 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		685B184D33BB550EF08D30CE /* UIView+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extensions.m"; path = "Source/UIView+Extensions.m"; sourceTree = "<group>"; };
-		81C71F6106A88B3FB4D544D6 /* Pods-TSNAtomicFlag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNAtomicFlag-dummy.m"; sourceTree = "<group>"; };
-		8EAA694E3D397785061794A3 /* Pods-TSNExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNExtensions-dummy.m"; sourceTree = "<group>"; };
-		91FC62BD8B81C004698266FE /* Pods-TSNExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNExtensions-Private.xcconfig"; sourceTree = "<group>"; };
-		927AA296035E5B933EC0FA90 /* TSNPerf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNPerf.m; path = Source/TSNPerf.m; sourceTree = "<group>"; };
-		97485A8788E37180F98F8EB9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		99E614BDFC10286D70265C36 /* Pods-TSNAtomicFlag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNAtomicFlag.xcconfig"; sourceTree = "<group>"; };
-		ABB8788F4FBF2EC76E471955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ADDCF625491EB2E57B455533 /* Pods-TSNAtomicFlag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNAtomicFlag-prefix.pch"; sourceTree = "<group>"; };
-		AE76F40A68B4FEDCAD0F2B9A /* TSNLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNLogger.m; path = Source/TSNLogger.m; sourceTree = "<group>"; };
-		B0FD8B196221E306409E42EF /* TSNPerf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNPerf.h; path = Source/TSNPerf.h; sourceTree = "<group>"; };
-		BAA03B22C03C9A7119B4B6B5 /* Pods-TSNPerf-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNPerf-Private.xcconfig"; sourceTree = "<group>"; };
-		BEE1553C3A20E244597B81A7 /* libPods-TSNExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C65D397A9B0847DEA25CCD41 /* TSNLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNLogger.h; path = Source/TSNLogger.h; sourceTree = "<group>"; };
-		D37B1CDC01E2FC8DB48F0F09 /* Pods-TSNExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNExtensions.xcconfig"; sourceTree = "<group>"; };
-		DC136D21515FDA610C5C39D0 /* libPods-TSNPerf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNPerf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4A27B3033E9FF1C80003C6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E08ECC227151BEC6F7360DFD /* Pods-TSNPerf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNPerf.xcconfig"; sourceTree = "<group>"; };
-		EA05B1762D7937ECD94987FA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		EAAFAF9808EB21D54CAE2ACA /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F220C3536D0C7A1B757401DD /* UIColor+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Source/UIColor+Extensions.m"; sourceTree = "<group>"; };
-		F8EF896EC9F15AC2116E918C /* UIColor+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Source/UIColor+Extensions.h"; sourceTree = "<group>"; };
-		FD50ABDD5404CDED4EB908D9 /* Pods-TSNLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNLogger.xcconfig"; sourceTree = "<group>"; };
+		00ECDC225327B33C954C96BB /* TSNPerf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNPerf.m; path = Source/TSNPerf.m; sourceTree = "<group>"; };
+		049EA30A6ED656260AC43D3C /* TSNAtomicFlag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNAtomicFlag.m; path = Source/TSNAtomicFlag.m; sourceTree = "<group>"; };
+		0BD23538CA7560DAEFF990FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1251A61F526E38A122288120 /* TSNAtomicFlag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNAtomicFlag.h; path = Source/TSNAtomicFlag.h; sourceTree = "<group>"; };
+		17B1A0E531B5BDBB9F5DBAE1 /* UIColor+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Source/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		1919C3EADA201F405AD55652 /* Pods-TSNLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNLogger.xcconfig"; sourceTree = "<group>"; };
+		292EF16DAF7B4305FEF55741 /* TSNThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNThreading.h; path = Source/TSNThreading.h; sourceTree = "<group>"; };
+		39B606B17B7CB38CDA534826 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C12E66561021BD55DFA4FCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4763B72E8CCBDDCDE13A1841 /* UIView+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extensions.m"; path = "Source/UIView+Extensions.m"; sourceTree = "<group>"; };
+		577A9DDD450E085F3085EED4 /* Pods-TSNLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		5B1D2E56D6E80A829B822833 /* Pods-TSNExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		5BEF2AEE461A06EC7ECB7804 /* TSNLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNLogger.h; path = Source/TSNLogger.h; sourceTree = "<group>"; };
+		5CE24C62EA8522DB2B42DEB6 /* Pods-TSNAtomicFlag-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNAtomicFlag-Private.xcconfig"; sourceTree = "<group>"; };
+		5EAC34618DDBFEC07F7E6530 /* Pods-TSNAtomicFlag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNAtomicFlag-dummy.m"; sourceTree = "<group>"; };
+		5F87C29665F866632D11A519 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		60C4F237A6AD0F2F12D3A286 /* Pods-TSNPerf-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNPerf-Private.xcconfig"; sourceTree = "<group>"; };
+		7026D440BD87C04CF2223660 /* Pods-TSNAtomicFlag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNAtomicFlag.xcconfig"; sourceTree = "<group>"; };
+		87717F1937FEEDA869142ADD /* Pods-TSNLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNLogger-prefix.pch"; sourceTree = "<group>"; };
+		8935754D5FBA9AA1A726C9A3 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A3908BA47626A8C35D187DE /* Pods-TSNAtomicFlag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNAtomicFlag-prefix.pch"; sourceTree = "<group>"; };
+		8F2E1AA3C543BA69D86A617A /* libPods-TSNPerf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNPerf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905AE8ADCA7F62451C5025FF /* UIColor+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Source/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		93E5807AA1FE65A158B3D2AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9CA3429C3EF8E70A830049B3 /* Pods-TSNPerf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNPerf.xcconfig"; sourceTree = "<group>"; };
+		A0EB0E057C314331311F8AFA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		AAA3E2E1BD0B483557935781 /* Pods-TSNPerf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNPerf-dummy.m"; sourceTree = "<group>"; };
+		B55650ADDF6E93CABAA49371 /* Pods-TSNExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSNExtensions.xcconfig"; sourceTree = "<group>"; };
+		B6C330AAB249A0B4C6DD4233 /* libPods-TSNAtomicFlag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNAtomicFlag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95B6239E0A8463783113A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9BB73184069009FE011FF4A /* Pods-TSNLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNLogger-dummy.m"; sourceTree = "<group>"; };
+		BD69AF49B5CAC1695B10EB2C /* TSNLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSNLogger.m; path = Source/TSNLogger.m; sourceTree = "<group>"; };
+		C3DC7CD746EBE510D18AFEBF /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		D25C6100B2659AA3E4EE1925 /* Pods-TSNExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSNExtensions-dummy.m"; sourceTree = "<group>"; };
+		DAD7CE109D9B5FA0C2CFEB61 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		DD1ED51F698678C7CBB0BD4F /* UIView+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extensions.h"; path = "Source/UIView+Extensions.h"; sourceTree = "<group>"; };
+		E17D6DFAEE43F1F74DAEEDAF /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E71E2A7B261731BDB72D5961 /* libPods-TSNExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CB93F87C7384CF41AFC31 /* libPods-TSNLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSNLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F94C5A69DC41BFF35C206 /* TSNPerf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSNPerf.h; path = Source/TSNPerf.h; sourceTree = "<group>"; };
+		F2247672F40C2BEAC66CACBE /* Pods-TSNPerf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNPerf-prefix.pch"; sourceTree = "<group>"; };
+		F450DDC10233D4E3B77E3576 /* Pods-TSNExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSNExtensions-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04DBDD1088716B4B4F02E86A /* Frameworks */ = {
+		0887EA9F1EC607C7A0FCE72E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA75450BF0E086D44122C48 /* Foundation.framework in Frameworks */,
-				32A1330DECDCAA8073173F87 /* UIKit.framework in Frameworks */,
+				E3DA73D6147854089157884F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		355E9300F9660CF625F431AB /* Frameworks */ = {
+		4D722D489897D5DEE0C260CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B13C1AF0F32733BF9F92AD1 /* Foundation.framework in Frameworks */,
+				1EC9F1C021D41599DD5B0C09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		510263DE882409085F76447F /* Frameworks */ = {
+		74D7599C84C69D1018484C03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07CF796C5C0DE50505DAC20 /* Foundation.framework in Frameworks */,
+				F764E7FF77834CC3407A8293 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEBECCD9C52B47560477C5EF /* Frameworks */ = {
+		85C5DDFFBA029BD90A9F3737 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BCBCF9BBE54743F2A2C795 /* Foundation.framework in Frameworks */,
+				5375BE5765AD9EDDAFB006FF /* Foundation.framework in Frameworks */,
+				01D49D3B26533BAE783FF09C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF316485530568B3562B8CCB /* Frameworks */ = {
+		88E6FC95699F0299157E53C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AEC0ECFCC17B2B87719F87 /* Foundation.framework in Frameworks */,
-				296DBD4D460D67684ACB35E0 /* UIKit.framework in Frameworks */,
+				4413BF9F38FB4972708D20E5 /* Foundation.framework in Frameworks */,
+				3FAFEFC05E8AA94CE3ED32B0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F9194764641FA8D172DAE9 /* TSNLogger */ = {
+		0DD13D91B3411433895731FB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C65D397A9B0847DEA25CCD41 /* TSNLogger.h */,
-				AE76F40A68B4FEDCAD0F2B9A /* TSNLogger.m */,
-				FB9B6F5B70A96DEA949941F8 /* Support Files */,
+				93E5807AA1FE65A158B3D2AF /* Foundation.framework */,
+				B95B6239E0A8463783113A8E /* UIKit.framework */,
 			);
-			path = TSNLogger;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		283D8EC885810F55559E79E8 /* Support Files */ = {
+		10742C6148787FBEB30D86BD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				99E614BDFC10286D70265C36 /* Pods-TSNAtomicFlag.xcconfig */,
-				13D727255F3DEEB52E1C9C78 /* Pods-TSNAtomicFlag-Private.xcconfig */,
-				81C71F6106A88B3FB4D544D6 /* Pods-TSNAtomicFlag-dummy.m */,
-				ADDCF625491EB2E57B455533 /* Pods-TSNAtomicFlag-prefix.pch */,
+				7026D440BD87C04CF2223660 /* Pods-TSNAtomicFlag.xcconfig */,
+				5CE24C62EA8522DB2B42DEB6 /* Pods-TSNAtomicFlag-Private.xcconfig */,
+				5EAC34618DDBFEC07F7E6530 /* Pods-TSNAtomicFlag-dummy.m */,
+				8A3908BA47626A8C35D187DE /* Pods-TSNAtomicFlag-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-TSNAtomicFlag";
 			sourceTree = "<group>";
 		};
-		2BFD8AA7EDAD1B6DCE682E1D /* Targets Support Files */ = {
+		16C5597E4C2CCBE8A1F9946A /* TSNPerf */ = {
 			isa = PBXGroup;
 			children = (
-				DDFEFDFFE30A1606C831933C /* Pods */,
+				EE8F94C5A69DC41BFF35C206 /* TSNPerf.h */,
+				00ECDC225327B33C954C96BB /* TSNPerf.m */,
+				283040CCF0C6667D824FF06C /* Support Files */,
 			);
-			name = "Targets Support Files";
+			path = TSNPerf;
 			sourceTree = "<group>";
 		};
-		4027482868E6F0C7A25C792F /* Frameworks */ = {
+		283040CCF0C6667D824FF06C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D5C483D87791ACB031085EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7775AD23F7E6C607345138A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7F2ED09C857D918581C3DA5B /* TSNAtomicFlag */,
-				C919F582508F30EE5A47F204 /* TSNExtensions */,
-				09F9194764641FA8D172DAE9 /* TSNLogger */,
-				BF41B009FB64F811C8FA3D4F /* TSNPerf */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7F2ED09C857D918581C3DA5B /* TSNAtomicFlag */ = {
-			isa = PBXGroup;
-			children = (
-				436E8B96D7D3A7D7168320EF /* TSNAtomicFlag.h */,
-				02C6F75BAD9A539663B99238 /* TSNAtomicFlag.m */,
-				283D8EC885810F55559E79E8 /* Support Files */,
-			);
-			path = TSNAtomicFlag;
-			sourceTree = "<group>";
-		};
-		8D5C483D87791ACB031085EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				ABB8788F4FBF2EC76E471955 /* Foundation.framework */,
-				087299798100C5EC825DDB2A /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A95DC575C2762380B915439E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				50471619D7C2911836358341 /* libPods.a */,
-				03F5B2B7EC8E6F90CF276B89 /* libPods-TSNAtomicFlag.a */,
-				BEE1553C3A20E244597B81A7 /* libPods-TSNExtensions.a */,
-				288A51186020F3488B7F1963 /* libPods-TSNLogger.a */,
-				DC136D21515FDA610C5C39D0 /* libPods-TSNPerf.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ACC58BEA67C62637399961A0 = {
-			isa = PBXGroup;
-			children = (
-				DD4A27B3033E9FF1C80003C6 /* Podfile */,
-				4027482868E6F0C7A25C792F /* Frameworks */,
-				7775AD23F7E6C607345138A8 /* Pods */,
-				A95DC575C2762380B915439E /* Products */,
-				2BFD8AA7EDAD1B6DCE682E1D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		AE6B211E8D3D6F5E7D9FF19C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E08ECC227151BEC6F7360DFD /* Pods-TSNPerf.xcconfig */,
-				BAA03B22C03C9A7119B4B6B5 /* Pods-TSNPerf-Private.xcconfig */,
-				4B02565AEC95A595FA6571B7 /* Pods-TSNPerf-dummy.m */,
-				007368A44D00068607821FF3 /* Pods-TSNPerf-prefix.pch */,
+				9CA3429C3EF8E70A830049B3 /* Pods-TSNPerf.xcconfig */,
+				60C4F237A6AD0F2F12D3A286 /* Pods-TSNPerf-Private.xcconfig */,
+				AAA3E2E1BD0B483557935781 /* Pods-TSNPerf-dummy.m */,
+				F2247672F40C2BEAC66CACBE /* Pods-TSNPerf-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-TSNPerf";
 			sourceTree = "<group>";
 		};
-		BF41B009FB64F811C8FA3D4F /* TSNPerf */ = {
+		60FF1C96ABAC21147C729FDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0FD8B196221E306409E42EF /* TSNPerf.h */,
-				927AA296035E5B933EC0FA90 /* TSNPerf.m */,
-				AE6B211E8D3D6F5E7D9FF19C /* Support Files */,
+				F27471D5E74C6E53D543568F /* TSNAtomicFlag */,
+				C075A486BA0049A57F17C0E4 /* TSNExtensions */,
+				B364A6FA1596C40B19FF7171 /* TSNLogger */,
+				16C5597E4C2CCBE8A1F9946A /* TSNPerf */,
 			);
-			path = TSNPerf;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C919F582508F30EE5A47F204 /* TSNExtensions */ = {
+		6C3BFB28F2D1652C5D8FA6EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2459A45AC492007D68850391 /* TSNThreading.h */,
-				F8EF896EC9F15AC2116E918C /* UIColor+Extensions.h */,
-				F220C3536D0C7A1B757401DD /* UIColor+Extensions.m */,
-				491D5141CD75431D80FA5C26 /* UIView+Extensions.h */,
-				685B184D33BB550EF08D30CE /* UIView+Extensions.m */,
-				D7202951A41022CE796EFB4F /* Support Files */,
+				0DD13D91B3411433895731FB /* iOS */,
 			);
-			path = TSNExtensions;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7202951A41022CE796EFB4F /* Support Files */ = {
+		74AB2A594E004D2B0107CF81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D37B1CDC01E2FC8DB48F0F09 /* Pods-TSNExtensions.xcconfig */,
-				91FC62BD8B81C004698266FE /* Pods-TSNExtensions-Private.xcconfig */,
-				8EAA694E3D397785061794A3 /* Pods-TSNExtensions-dummy.m */,
-				2CC9A1EEAB2E49080A041214 /* Pods-TSNExtensions-prefix.pch */,
+				3C12E66561021BD55DFA4FCD /* libPods.a */,
+				B6C330AAB249A0B4C6DD4233 /* libPods-TSNAtomicFlag.a */,
+				E71E2A7B261731BDB72D5961 /* libPods-TSNExtensions.a */,
+				ED4CB93F87C7384CF41AFC31 /* libPods-TSNLogger.a */,
+				8F2E1AA3C543BA69D86A617A /* libPods-TSNPerf.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TSNExtensions";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		DDFEFDFFE30A1606C831933C /* Pods */ = {
+		7C911678FB3E151B9D45B9F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAAFAF9808EB21D54CAE2ACA /* Pods-acknowledgements.markdown */,
-				108C4F380774674AADF81B60 /* Pods-acknowledgements.plist */,
-				0905DBB21DD5106F4EE17B63 /* Pods-dummy.m */,
-				2F4D3E2C2A252D5305657942 /* Pods-environment.h */,
-				EA05B1762D7937ECD94987FA /* Pods-resources.sh */,
-				97485A8788E37180F98F8EB9 /* Pods.debug.xcconfig */,
-				18F7D71F66BED9A2FB3740B6 /* Pods.release.xcconfig */,
+				E17D6DFAEE43F1F74DAEEDAF /* Pods-acknowledgements.markdown */,
+				8935754D5FBA9AA1A726C9A3 /* Pods-acknowledgements.plist */,
+				C3DC7CD746EBE510D18AFEBF /* Pods-dummy.m */,
+				DAD7CE109D9B5FA0C2CFEB61 /* Pods-environment.h */,
+				5F87C29665F866632D11A519 /* Pods-resources.sh */,
+				0BD23538CA7560DAEFF990FC /* Pods.debug.xcconfig */,
+				A0EB0E057C314331311F8AFA /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		FB9B6F5B70A96DEA949941F8 /* Support Files */ = {
+		97136B93994870D7579E4BDA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD50ABDD5404CDED4EB908D9 /* Pods-TSNLogger.xcconfig */,
-				2042141AD67E35FDE3A02F89 /* Pods-TSNLogger-Private.xcconfig */,
-				4B8DAE2C4785EEA52D8AA5E0 /* Pods-TSNLogger-dummy.m */,
-				2E1501E4282D354BE6466C71 /* Pods-TSNLogger-prefix.pch */,
+				7C911678FB3E151B9D45B9F8 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E552F62DF86795E9AF2BFA7 = {
+			isa = PBXGroup;
+			children = (
+				39B606B17B7CB38CDA534826 /* Podfile */,
+				6C3BFB28F2D1652C5D8FA6EF /* Frameworks */,
+				60FF1C96ABAC21147C729FDB /* Pods */,
+				74AB2A594E004D2B0107CF81 /* Products */,
+				97136B93994870D7579E4BDA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBFC111021350A58726627F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55650ADDF6E93CABAA49371 /* Pods-TSNExtensions.xcconfig */,
+				5B1D2E56D6E80A829B822833 /* Pods-TSNExtensions-Private.xcconfig */,
+				D25C6100B2659AA3E4EE1925 /* Pods-TSNExtensions-dummy.m */,
+				F450DDC10233D4E3B77E3576 /* Pods-TSNExtensions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TSNExtensions";
+			sourceTree = "<group>";
+		};
+		ADC069AD5ED36E62223F4C74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1919C3EADA201F405AD55652 /* Pods-TSNLogger.xcconfig */,
+				577A9DDD450E085F3085EED4 /* Pods-TSNLogger-Private.xcconfig */,
+				B9BB73184069009FE011FF4A /* Pods-TSNLogger-dummy.m */,
+				87717F1937FEEDA869142ADD /* Pods-TSNLogger-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-TSNLogger";
 			sourceTree = "<group>";
 		};
+		B364A6FA1596C40B19FF7171 /* TSNLogger */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF2AEE461A06EC7ECB7804 /* TSNLogger.h */,
+				BD69AF49B5CAC1695B10EB2C /* TSNLogger.m */,
+				ADC069AD5ED36E62223F4C74 /* Support Files */,
+			);
+			path = TSNLogger;
+			sourceTree = "<group>";
+		};
+		C075A486BA0049A57F17C0E4 /* TSNExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				292EF16DAF7B4305FEF55741 /* TSNThreading.h */,
+				905AE8ADCA7F62451C5025FF /* UIColor+Extensions.h */,
+				17B1A0E531B5BDBB9F5DBAE1 /* UIColor+Extensions.m */,
+				DD1ED51F698678C7CBB0BD4F /* UIView+Extensions.h */,
+				4763B72E8CCBDDCDE13A1841 /* UIView+Extensions.m */,
+				ADBFC111021350A58726627F /* Support Files */,
+			);
+			path = TSNExtensions;
+			sourceTree = "<group>";
+		};
+		F27471D5E74C6E53D543568F /* TSNAtomicFlag */ = {
+			isa = PBXGroup;
+			children = (
+				1251A61F526E38A122288120 /* TSNAtomicFlag.h */,
+				049EA30A6ED656260AC43D3C /* TSNAtomicFlag.m */,
+				10742C6148787FBEB30D86BD /* Support Files */,
+			);
+			path = TSNAtomicFlag;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		329DA1512CD62805899B6082 /* Headers */ = {
+		0563EC70BCAE731C3BC9F53E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67185C35CCA57DBFE17FC8DC /* TSNAtomicFlag.h in Headers */,
+				368FB7DF703967A7D634AE34 /* TSNPerf.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB16B528DE68BAD6A5CD582 /* Headers */ = {
+		34A70D28539467DBCC093A11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C4DE5498A865878B2FD409 /* TSNLogger.h in Headers */,
+				E49E505239923ED77BD22F9A /* TSNLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAC94B32A45EE243807CC202 /* Headers */ = {
+		40B3CC3E021A389CD12383EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E9A4968AD8EB03E20D9F6D /* TSNThreading.h in Headers */,
-				2BC979F82CE4D2A32EF9E59E /* UIColor+Extensions.h in Headers */,
-				0607E5ECCEBD5C2C38738704 /* UIView+Extensions.h in Headers */,
+				90BA52F94E63A59A94AE30D5 /* TSNThreading.h in Headers */,
+				1C9111337A2839C16B40A4B8 /* UIColor+Extensions.h in Headers */,
+				66829215E2A8927046C739BE /* UIView+Extensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F290D7EF51F19D96A47A3383 /* Headers */ = {
+		BB523951A3351BB6502EA661 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293235169C3373C3812C7015 /* TSNPerf.h in Headers */,
+				A2ABD0EC19FD7A0449C0D15F /* TSNAtomicFlag.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		13D77D29A28FB717F65EDD54 /* Pods-TSNLogger */ = {
+		0B13BF5B51E9B3587638E8ED /* Pods-TSNExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87702461E1C1C6CA2853B46 /* Build configuration list for PBXNativeTarget "Pods-TSNLogger" */;
+			buildConfigurationList = 752FADF8B9A911503FA56575 /* Build configuration list for PBXNativeTarget "Pods-TSNExtensions" */;
 			buildPhases = (
-				9871EA082CD0617AFD11F8AF /* Sources */,
-				04DBDD1088716B4B4F02E86A /* Frameworks */,
-				9FB16B528DE68BAD6A5CD582 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TSNLogger";
-			productName = "Pods-TSNLogger";
-			productReference = 288A51186020F3488B7F1963 /* libPods-TSNLogger.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		81332C7B9773505849BC9DF4 /* Pods-TSNPerf */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C42ECE34F0136623868785D8 /* Build configuration list for PBXNativeTarget "Pods-TSNPerf" */;
-			buildPhases = (
-				BAA89FC5229E2D5FE1E4B137 /* Sources */,
-				510263DE882409085F76447F /* Frameworks */,
-				F290D7EF51F19D96A47A3383 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TSNPerf";
-			productName = "Pods-TSNPerf";
-			productReference = DC136D21515FDA610C5C39D0 /* libPods-TSNPerf.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BFC8035192E1F2DE96FDB5A2 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A628BEFB0357FF05ABE3BEEB /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				8217D79009BAAF9335C06D42 /* Sources */,
-				DEBECCD9C52B47560477C5EF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1E2949ED3B3237476A1DC15 /* PBXTargetDependency */,
-				B845B7D424ECD5216B165D8F /* PBXTargetDependency */,
-				9BF984E5363BC29E2803A7C2 /* PBXTargetDependency */,
-				52801DA643616E7C08105652 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 50471619D7C2911836358341 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E055092759741E4E15ABEEED /* Pods-TSNAtomicFlag */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F644683B5ADE1AE5C58D0CDE /* Build configuration list for PBXNativeTarget "Pods-TSNAtomicFlag" */;
-			buildPhases = (
-				702BB431137FA660CBCC73FF /* Sources */,
-				355E9300F9660CF625F431AB /* Frameworks */,
-				329DA1512CD62805899B6082 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TSNAtomicFlag";
-			productName = "Pods-TSNAtomicFlag";
-			productReference = 03F5B2B7EC8E6F90CF276B89 /* libPods-TSNAtomicFlag.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F7F556509ED6ABE1106909DF /* Pods-TSNExtensions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DA7DA0F9F2E0D244DE4474D /* Build configuration list for PBXNativeTarget "Pods-TSNExtensions" */;
-			buildPhases = (
-				E2384A46B28F6030A0BC44DA /* Sources */,
-				EF316485530568B3562B8CCB /* Frameworks */,
-				BAC94B32A45EE243807CC202 /* Headers */,
+				8D31AF188436D2112465C696 /* Sources */,
+				88E6FC95699F0299157E53C7 /* Frameworks */,
+				40B3CC3E021A389CD12383EC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -444,309 +373,186 @@
 			);
 			name = "Pods-TSNExtensions";
 			productName = "Pods-TSNExtensions";
-			productReference = BEE1553C3A20E244597B81A7 /* libPods-TSNExtensions.a */;
+			productReference = E71E2A7B261731BDB72D5961 /* libPods-TSNExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1C2571EE2458D0B5D18E7766 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEA1426432E0D2F5B7B8430 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				ADE75BE72F6AD6E4C81180B7 /* Sources */,
+				74D7599C84C69D1018484C03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3909D286B46D802A89CFB173 /* PBXTargetDependency */,
+				3D6C762FEEFF0E52E875CD84 /* PBXTargetDependency */,
+				EABC331BD78B5E0640427190 /* PBXTargetDependency */,
+				10C452D412B61F36F45D49A7 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3C12E66561021BD55DFA4FCD /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		80654CDB007EF64D8352F9D8 /* Pods-TSNPerf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FE7F60B78AD1C68D29D593 /* Build configuration list for PBXNativeTarget "Pods-TSNPerf" */;
+			buildPhases = (
+				FE65BFE216F570BF4043089E /* Sources */,
+				4D722D489897D5DEE0C260CA /* Frameworks */,
+				0563EC70BCAE731C3BC9F53E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TSNPerf";
+			productName = "Pods-TSNPerf";
+			productReference = 8F2E1AA3C543BA69D86A617A /* libPods-TSNPerf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF5BBBE991520C12157E40E2 /* Pods-TSNLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27ABC6E9FC47BE20D385F13 /* Build configuration list for PBXNativeTarget "Pods-TSNLogger" */;
+			buildPhases = (
+				3B1C0AB37C473345A5CD7520 /* Sources */,
+				85C5DDFFBA029BD90A9F3737 /* Frameworks */,
+				34A70D28539467DBCC093A11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TSNLogger";
+			productName = "Pods-TSNLogger";
+			productReference = ED4CB93F87C7384CF41AFC31 /* libPods-TSNLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC7620CFBF4872C5956DEBD6 /* Pods-TSNAtomicFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AD2615F21E96F6B948FD48 /* Build configuration list for PBXNativeTarget "Pods-TSNAtomicFlag" */;
+			buildPhases = (
+				C2BDBF42FD36C392EC244C19 /* Sources */,
+				0887EA9F1EC607C7A0FCE72E /* Frameworks */,
+				BB523951A3351BB6502EA661 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TSNAtomicFlag";
+			productName = "Pods-TSNAtomicFlag";
+			productReference = B6C330AAB249A0B4C6DD4233 /* libPods-TSNAtomicFlag.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		95EA6F988056BABB9FEB668D /* Project object */ = {
+		AC0048B6A01A8BDBEEDBFD38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 695CBEE1D5F4E4044011F556 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 5D35C0F6FFB8DD333B60C899 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ACC58BEA67C62637399961A0;
-			productRefGroup = A95DC575C2762380B915439E /* Products */;
+			mainGroup = 9E552F62DF86795E9AF2BFA7;
+			productRefGroup = 74AB2A594E004D2B0107CF81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFC8035192E1F2DE96FDB5A2 /* Pods */,
-				E055092759741E4E15ABEEED /* Pods-TSNAtomicFlag */,
-				F7F556509ED6ABE1106909DF /* Pods-TSNExtensions */,
-				13D77D29A28FB717F65EDD54 /* Pods-TSNLogger */,
-				81332C7B9773505849BC9DF4 /* Pods-TSNPerf */,
+				1C2571EE2458D0B5D18E7766 /* Pods */,
+				CC7620CFBF4872C5956DEBD6 /* Pods-TSNAtomicFlag */,
+				0B13BF5B51E9B3587638E8ED /* Pods-TSNExtensions */,
+				BF5BBBE991520C12157E40E2 /* Pods-TSNLogger */,
+				80654CDB007EF64D8352F9D8 /* Pods-TSNPerf */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		702BB431137FA660CBCC73FF /* Sources */ = {
+		3B1C0AB37C473345A5CD7520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF110858F7F6C03B9AF3797 /* Pods-TSNAtomicFlag-dummy.m in Sources */,
-				64EE749D5CBA6C4819CA01F8 /* TSNAtomicFlag.m in Sources */,
+				900684C6D0DD9ADBFC678F74 /* Pods-TSNLogger-dummy.m in Sources */,
+				09D28417DD34A1F8E333F03D /* TSNLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8217D79009BAAF9335C06D42 /* Sources */ = {
+		8D31AF188436D2112465C696 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3A1691B76298F580DA1FDE /* Pods-dummy.m in Sources */,
+				31AB2F697D5390EEC1496AA3 /* Pods-TSNExtensions-dummy.m in Sources */,
+				35C34BC336E360939AEB71CB /* UIColor+Extensions.m in Sources */,
+				153A25C8A0036776EF4A4FBC /* UIView+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9871EA082CD0617AFD11F8AF /* Sources */ = {
+		ADE75BE72F6AD6E4C81180B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25AAD8C248167065E617C5F5 /* Pods-TSNLogger-dummy.m in Sources */,
-				68324AA7EF536238DBC2FF25 /* TSNLogger.m in Sources */,
+				DB8E6B46F42E14FB7FF8B05C /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAA89FC5229E2D5FE1E4B137 /* Sources */ = {
+		C2BDBF42FD36C392EC244C19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4A8650905AF7A774F88968 /* Pods-TSNPerf-dummy.m in Sources */,
-				FA066DDDD9AF2F8CCC007343 /* TSNPerf.m in Sources */,
+				F25E262F9BBC0019CAE0FD54 /* Pods-TSNAtomicFlag-dummy.m in Sources */,
+				D2EF17D28B676504B2014396 /* TSNAtomicFlag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2384A46B28F6030A0BC44DA /* Sources */ = {
+		FE65BFE216F570BF4043089E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2C55C25C21CFF7831A2BC68 /* Pods-TSNExtensions-dummy.m in Sources */,
-				D8DE77EF218E33D8AA5A46C6 /* UIColor+Extensions.m in Sources */,
-				19EB7260D5C92E7EA9426F1B /* UIView+Extensions.m in Sources */,
+				BA06644A1E03E32A60F4289F /* Pods-TSNPerf-dummy.m in Sources */,
+				3F265F3F164767A83E7E2C99 /* TSNPerf.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52801DA643616E7C08105652 /* PBXTargetDependency */ = {
+		10C452D412B61F36F45D49A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TSNPerf";
-			target = 81332C7B9773505849BC9DF4 /* Pods-TSNPerf */;
-			targetProxy = 8621B099EA2E8DDF7061EAF3 /* PBXContainerItemProxy */;
+			target = 80654CDB007EF64D8352F9D8 /* Pods-TSNPerf */;
+			targetProxy = FB77BC2176021D0121B1F94D /* PBXContainerItemProxy */;
 		};
-		9BF984E5363BC29E2803A7C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TSNLogger";
-			target = 13D77D29A28FB717F65EDD54 /* Pods-TSNLogger */;
-			targetProxy = 29570345D65B8AFE78339FF2 /* PBXContainerItemProxy */;
-		};
-		B845B7D424ECD5216B165D8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TSNExtensions";
-			target = F7F556509ED6ABE1106909DF /* Pods-TSNExtensions */;
-			targetProxy = 92EE6DDAACE4974B26276317 /* PBXContainerItemProxy */;
-		};
-		E1E2949ED3B3237476A1DC15 /* PBXTargetDependency */ = {
+		3909D286B46D802A89CFB173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TSNAtomicFlag";
-			target = E055092759741E4E15ABEEED /* Pods-TSNAtomicFlag */;
-			targetProxy = 23B7D9467131FB80A150D19A /* PBXContainerItemProxy */;
+			target = CC7620CFBF4872C5956DEBD6 /* Pods-TSNAtomicFlag */;
+			targetProxy = 95BD023ADF4B8F7697FDA1BC /* PBXContainerItemProxy */;
+		};
+		3D6C762FEEFF0E52E875CD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TSNExtensions";
+			target = 0B13BF5B51E9B3587638E8ED /* Pods-TSNExtensions */;
+			targetProxy = ED53F45F58662F4127E410D4 /* PBXContainerItemProxy */;
+		};
+		EABC331BD78B5E0640427190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TSNLogger";
+			target = BF5BBBE991520C12157E40E2 /* Pods-TSNLogger */;
+			targetProxy = 5800DED3CED05FDBFABC8125 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AFF4646422DDEA14B9DE1A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FC62BD8B81C004698266FE /* Pods-TSNExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNExtensions/Pods-TSNExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0D2613E7BA29C6B2B18D5717 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA03B22C03C9A7119B4B6B5 /* Pods-TSNPerf-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNPerf/Pods-TSNPerf-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		0EE5A0D845FC970D16A6009F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA03B22C03C9A7119B4B6B5 /* Pods-TSNPerf-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNPerf/Pods-TSNPerf-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5D237875592E92047486674A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13D727255F3DEEB52E1C9C78 /* Pods-TSNAtomicFlag-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNAtomicFlag/Pods-TSNAtomicFlag-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6B4FDEFEC7834BCDE0EC0399 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		75B434E18B0A18F634981DE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18F7D71F66BED9A2FB3740B6 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8342D7B439E654EA563B8EF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2042141AD67E35FDE3A02F89 /* Pods-TSNLogger-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNLogger/Pods-TSNLogger-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		996BFF9B22BDC9AF2142CB60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FC62BD8B81C004698266FE /* Pods-TSNExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNExtensions/Pods-TSNExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B799F4DA577BB9A57255347C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97485A8788E37180F98F8EB9 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C1CC431F979F489449FDF5AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2042141AD67E35FDE3A02F89 /* Pods-TSNLogger-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNLogger/Pods-TSNLogger-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EE06E0167CC1AC86692FDE5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13D727255F3DEEB52E1C9C78 /* Pods-TSNAtomicFlag-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNAtomicFlag/Pods-TSNAtomicFlag-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F6C0B2C81AA8AAC19665B5F7 /* Debug */ = {
+		06E784D4AB803A95D0461C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -785,64 +591,258 @@
 			};
 			name = Debug;
 		};
+		0BB459C883B06FBD52F647C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EB0E057C314331311F8AFA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0E0F3FE9D2D7EC9AD3E13A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1D2E56D6E80A829B822833 /* Pods-TSNExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNExtensions/Pods-TSNExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B267DACC2DF22C162653A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1D2E56D6E80A829B822833 /* Pods-TSNExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNExtensions/Pods-TSNExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3732EC1A23149D3F1676D9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C4F237A6AD0F2F12D3A286 /* Pods-TSNPerf-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNPerf/Pods-TSNPerf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4AA653AEAF2F8A7370E9DB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD23538CA7560DAEFF990FC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84B98A9CD75540CAD0D68C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE24C62EA8522DB2B42DEB6 /* Pods-TSNAtomicFlag-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNAtomicFlag/Pods-TSNAtomicFlag-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97D655197A0E4603CEC34726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577A9DDD450E085F3085EED4 /* Pods-TSNLogger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNLogger/Pods-TSNLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1850A9C498FA096B670930D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577A9DDD450E085F3085EED4 /* Pods-TSNLogger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNLogger/Pods-TSNLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6F5F4FA8B814A87BD47FC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C4F237A6AD0F2F12D3A286 /* Pods-TSNPerf-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNPerf/Pods-TSNPerf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B9CB8826757A6416C107E48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E6656A8AF62AD473032ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE24C62EA8522DB2B42DEB6 /* Pods-TSNAtomicFlag-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TSNAtomicFlag/Pods-TSNAtomicFlag-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DA7DA0F9F2E0D244DE4474D /* Build configuration list for PBXNativeTarget "Pods-TSNExtensions" */ = {
+		1EEA1426432E0D2F5B7B8430 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AFF4646422DDEA14B9DE1A5 /* Debug */,
-				996BFF9B22BDC9AF2142CB60 /* Release */,
+				4AA653AEAF2F8A7370E9DB87 /* Debug */,
+				0BB459C883B06FBD52F647C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		695CBEE1D5F4E4044011F556 /* Build configuration list for PBXProject "Pods" */ = {
+		5D35C0F6FFB8DD333B60C899 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6C0B2C81AA8AAC19665B5F7 /* Debug */,
-				6B4FDEFEC7834BCDE0EC0399 /* Release */,
+				06E784D4AB803A95D0461C26 /* Debug */,
+				B9CB8826757A6416C107E48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A628BEFB0357FF05ABE3BEEB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		752FADF8B9A911503FA56575 /* Build configuration list for PBXNativeTarget "Pods-TSNExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B799F4DA577BB9A57255347C /* Debug */,
-				75B434E18B0A18F634981DE3 /* Release */,
+				0E0F3FE9D2D7EC9AD3E13A0B /* Debug */,
+				1B267DACC2DF22C162653A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C42ECE34F0136623868785D8 /* Build configuration list for PBXNativeTarget "Pods-TSNPerf" */ = {
+		A9AD2615F21E96F6B948FD48 /* Build configuration list for PBXNativeTarget "Pods-TSNAtomicFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EE5A0D845FC970D16A6009F /* Debug */,
-				0D2613E7BA29C6B2B18D5717 /* Release */,
+				84B98A9CD75540CAD0D68C49 /* Debug */,
+				F5E6656A8AF62AD473032ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87702461E1C1C6CA2853B46 /* Build configuration list for PBXNativeTarget "Pods-TSNLogger" */ = {
+		D9FE7F60B78AD1C68D29D593 /* Build configuration list for PBXNativeTarget "Pods-TSNPerf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1CC431F979F489449FDF5AA /* Debug */,
-				8342D7B439E654EA563B8EF2 /* Release */,
+				B6F5F4FA8B814A87BD47FC29 /* Debug */,
+				3732EC1A23149D3F1676D9A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F644683B5ADE1AE5C58D0CDE /* Build configuration list for PBXNativeTarget "Pods-TSNAtomicFlag" */ = {
+		F27ABC6E9FC47BE20D385F13 /* Build configuration list for PBXNativeTarget "Pods-TSNLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D237875592E92047486674A /* Debug */,
-				EE06E0167CC1AC86692FDE5D /* Release */,
+				A1850A9C498FA096B670930D /* Debug */,
+				97D655197A0E4603CEC34726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 95EA6F988056BABB9FEB668D /* Project object */;
+	rootObject = AC0048B6A01A8BDBEEDBFD38 /* Project object */;
 }

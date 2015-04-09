@@ -26,13 +26,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSNAppViewDelegate.h"
 
 // TSNAppView interface.
 @interface TSNAppView : UIView
-
-// Properties.
-@property (nonatomic, weak) id<TSNAppViewDelegate> delegate;
 
 // Class initializer.
 - (instancetype)initWithFrame:(CGRect)frame;

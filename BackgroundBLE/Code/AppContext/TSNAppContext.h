@@ -26,11 +26,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSNPeer.h"
-
-// External declarations.
-extern NSString * const TSNLocationUpdatedNotification;
-extern NSString * const TSNPeersUpdatedNotification;
 
 // TSNAppContext interface.
 @interface TSNAppContext : NSObject
@@ -43,8 +38,5 @@ extern NSString * const TSNPeersUpdatedNotification;
 
 // Stops communications.
 - (void)stopCommunications;
-
-// Gets the peers.
-- (NSArray *)peers;
 
 @end

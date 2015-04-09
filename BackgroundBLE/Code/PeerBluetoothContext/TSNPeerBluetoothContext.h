@@ -44,7 +44,8 @@
 // Stops the peer Bluetooth context.
 - (void)stop;
 
-// Updates the location.
-- (void)updateLocation:(CLLocation *)location;
+// Appends a message.
+- (void)appendMessage:(NSString *)message
+          messageDate:(NSDate *)messageDate;
 
 @end

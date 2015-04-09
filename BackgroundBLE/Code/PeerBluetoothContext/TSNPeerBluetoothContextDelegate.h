@@ -33,21 +33,12 @@
 @protocol TSNPeerBluetoothContextDelegate <NSObject>
 @required
 
-//// Notifies the delegate that a peer was discovered.
-//- (void)didDiscoverPeer:(TSNPeerBluetoothContext *)peerBluetoothContext
-//                   name:(NSString *)peerName;
-
 // Notifies the delegate that a peer was connected.
 - (void)peerBluetoothContext:(TSNPeerBluetoothContext *)peerBluetoothContext
-        didConnectToPeerName:(NSString *)peerName;
+    didConnectPeerIdentifier:(NSString *)peerIdentifier;
 
 // Notifies the delegate that a peer was disconnected.
 - (void)peerBluetoothContext:(TSNPeerBluetoothContext *)peerBluetoothContext
-   didDisconnectFromPeerName:(NSString *)peerName;
-
-// Notifies the delegate that a peer updated its location.
-- (void)peerBluetoothContext:(TSNPeerBluetoothContext *)peerBluetoothContext
-          didReceiveLocation:(CLLocation *)location
-                 forPeerName:(NSString *)peerName;
+ didDisconnectPeerIdentifier:(NSString *)peerIdentifier;
 
 @end

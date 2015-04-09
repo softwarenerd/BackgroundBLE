@@ -8,45 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2720AA475CE53A3DDDC04E4C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CC571BF838A69B2F094706 /* libPods.a */; };
-		D3A34D9A1AD46E76009FFB3A /* BackgroundBLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D991AD46E76009FFB3A /* BackgroundBLETests.m */; };
 		D3BF561A1AD472F200AEF2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BF56191AD472F200AEF2EB /* main.m */; };
 		D3BF561E1AD4731900AEF2EB /* TSNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BF561D1AD4731900AEF2EB /* TSNAppDelegate.m */; };
 		D3D33C991AD473B400A7606A /* TSNAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33C981AD473B400A7606A /* TSNAppContext.m */; };
 		D3D33CA11AD473E600A7606A /* CBCentralManager+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33C9C1AD473E600A7606A /* CBCentralManager+Extensions.m */; };
 		D3D33CA21AD473E600A7606A /* CBPeripheral+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33C9E1AD473E600A7606A /* CBPeripheral+Extensions.m */; };
 		D3D33CA31AD473E600A7606A /* CBPeripheralManager+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CA01AD473E600A7606A /* CBPeripheralManager+Extensions.m */; };
-		D3D33CA81AD4741000A7606A /* TSNLocationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CA61AD4741000A7606A /* TSNLocationContext.m */; };
-		D3D33CAC1AD4745200A7606A /* TSNPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CAB1AD4745200A7606A /* TSNPeer.m */; };
 		D3D33CC51AD4746F00A7606A /* TSNAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CAF1AD4746F00A7606A /* TSNAppView.m */; };
 		D3D33CC61AD4746F00A7606A /* TSNAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CB11AD4746F00A7606A /* TSNAppViewController.m */; };
 		D3D33CC71AD4746F00A7606A /* TSNAppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CB41AD4746F00A7606A /* TSNAppWindow.m */; };
-		D3D33CC81AD4746F00A7606A /* TSNBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CB61AD4746F00A7606A /* TSNBubbleView.m */; };
-		D3D33CC91AD4746F00A7606A /* TSNBubbleViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CB91AD4746F00A7606A /* TSNBubbleViewTableViewCell.m */; };
-		D3D33CCA1AD4746F00A7606A /* TSNMeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CBC1AD4746F00A7606A /* TSNMeAnnotation.m */; };
-		D3D33CCB1AD4746F00A7606A /* TSNNearbyPeersView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CBE1AD4746F00A7606A /* TSNNearbyPeersView.m */; };
-		D3D33CCC1AD4746F00A7606A /* TSNPeerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CC11AD4746F00A7606A /* TSNPeerAnnotation.m */; };
-		D3D33CCD1AD4746F00A7606A /* TSNSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CC31AD4746F00A7606A /* TSNSettingsView.m */; };
 		D3D33CD21AD4748B00A7606A /* TSNPeerBluetoothContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D33CD01AD4748B00A7606A /* TSNPeerBluetoothContext.m */; };
 		D3D33CD51AD4794500A7606A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D33CD41AD4794500A7606A /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D3A34D941AD46E76009FFB3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3A34D721AD46E76009FFB3A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3A34D791AD46E76009FFB3A;
-			remoteInfo = BackgroundBLE;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		20CC571BF838A69B2F094706 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A34D7A1AD46E76009FFB3A /* BackgroundBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A34D7E1AD46E76009FFB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3A34D931AD46E76009FFB3A /* BackgroundBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3A34D981AD46E76009FFB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3A34D991AD46E76009FFB3A /* BackgroundBLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundBLETests.m; sourceTree = "<group>"; };
 		D3BF56191AD472F200AEF2EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Code/App/main.m; sourceTree = "<group>"; };
 		D3BF561C1AD4731900AEF2EB /* TSNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNAppDelegate.h; path = Code/AppDelegate/TSNAppDelegate.h; sourceTree = "<group>"; };
 		D3BF561D1AD4731900AEF2EB /* TSNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNAppDelegate.m; path = Code/AppDelegate/TSNAppDelegate.m; sourceTree = "<group>"; };
@@ -58,34 +36,12 @@
 		D3D33C9E1AD473E600A7606A /* CBPeripheral+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+Extensions.m"; path = "Code/Extensions/CBPeripheral+Extensions.m"; sourceTree = "<group>"; };
 		D3D33C9F1AD473E600A7606A /* CBPeripheralManager+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CBPeripheralManager+Extensions.h"; path = "Code/Extensions/CBPeripheralManager+Extensions.h"; sourceTree = "<group>"; };
 		D3D33CA01AD473E600A7606A /* CBPeripheralManager+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheralManager+Extensions.m"; path = "Code/Extensions/CBPeripheralManager+Extensions.m"; sourceTree = "<group>"; };
-		D3D33CA51AD4741000A7606A /* TSNLocationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNLocationContext.h; path = Code/LocationContext/TSNLocationContext.h; sourceTree = "<group>"; };
-		D3D33CA61AD4741000A7606A /* TSNLocationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNLocationContext.m; path = Code/LocationContext/TSNLocationContext.m; sourceTree = "<group>"; };
-		D3D33CA71AD4741000A7606A /* TSNLocationContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNLocationContextDelegate.h; path = Code/LocationContext/TSNLocationContextDelegate.h; sourceTree = "<group>"; };
-		D3D33CAA1AD4745200A7606A /* TSNPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNPeer.h; path = Code/Peer/TSNPeer.h; sourceTree = "<group>"; };
-		D3D33CAB1AD4745200A7606A /* TSNPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNPeer.m; path = Code/Peer/TSNPeer.m; sourceTree = "<group>"; };
 		D3D33CAE1AD4746F00A7606A /* TSNAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNAppView.h; path = Code/UI/TSNAppView.h; sourceTree = "<group>"; };
 		D3D33CAF1AD4746F00A7606A /* TSNAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNAppView.m; path = Code/UI/TSNAppView.m; sourceTree = "<group>"; };
 		D3D33CB01AD4746F00A7606A /* TSNAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNAppViewController.h; path = Code/UI/TSNAppViewController.h; sourceTree = "<group>"; };
 		D3D33CB11AD4746F00A7606A /* TSNAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNAppViewController.m; path = Code/UI/TSNAppViewController.m; sourceTree = "<group>"; };
-		D3D33CB21AD4746F00A7606A /* TSNAppViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNAppViewDelegate.h; path = Code/UI/TSNAppViewDelegate.h; sourceTree = "<group>"; };
 		D3D33CB31AD4746F00A7606A /* TSNAppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNAppWindow.h; path = Code/UI/TSNAppWindow.h; sourceTree = "<group>"; };
 		D3D33CB41AD4746F00A7606A /* TSNAppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNAppWindow.m; path = Code/UI/TSNAppWindow.m; sourceTree = "<group>"; };
-		D3D33CB51AD4746F00A7606A /* TSNBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNBubbleView.h; path = Code/UI/TSNBubbleView.h; sourceTree = "<group>"; };
-		D3D33CB61AD4746F00A7606A /* TSNBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNBubbleView.m; path = Code/UI/TSNBubbleView.m; sourceTree = "<group>"; };
-		D3D33CB71AD4746F00A7606A /* TSNBubbleViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNBubbleViewDelegate.h; path = Code/UI/TSNBubbleViewDelegate.h; sourceTree = "<group>"; };
-		D3D33CB81AD4746F00A7606A /* TSNBubbleViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNBubbleViewTableViewCell.h; path = Code/UI/TSNBubbleViewTableViewCell.h; sourceTree = "<group>"; };
-		D3D33CB91AD4746F00A7606A /* TSNBubbleViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNBubbleViewTableViewCell.m; path = Code/UI/TSNBubbleViewTableViewCell.m; sourceTree = "<group>"; };
-		D3D33CBA1AD4746F00A7606A /* TSNBubbleViewTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNBubbleViewTableViewCellDelegate.h; path = Code/UI/TSNBubbleViewTableViewCellDelegate.h; sourceTree = "<group>"; };
-		D3D33CBB1AD4746F00A7606A /* TSNMeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNMeAnnotation.h; path = Code/UI/TSNMeAnnotation.h; sourceTree = "<group>"; };
-		D3D33CBC1AD4746F00A7606A /* TSNMeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNMeAnnotation.m; path = Code/UI/TSNMeAnnotation.m; sourceTree = "<group>"; };
-		D3D33CBD1AD4746F00A7606A /* TSNNearbyPeersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNNearbyPeersView.h; path = Code/UI/TSNNearbyPeersView.h; sourceTree = "<group>"; };
-		D3D33CBE1AD4746F00A7606A /* TSNNearbyPeersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNNearbyPeersView.m; path = Code/UI/TSNNearbyPeersView.m; sourceTree = "<group>"; };
-		D3D33CBF1AD4746F00A7606A /* TSNNearbyPeersViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNNearbyPeersViewDelegate.h; path = Code/UI/TSNNearbyPeersViewDelegate.h; sourceTree = "<group>"; };
-		D3D33CC01AD4746F00A7606A /* TSNPeerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNPeerAnnotation.h; path = Code/UI/TSNPeerAnnotation.h; sourceTree = "<group>"; };
-		D3D33CC11AD4746F00A7606A /* TSNPeerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNPeerAnnotation.m; path = Code/UI/TSNPeerAnnotation.m; sourceTree = "<group>"; };
-		D3D33CC21AD4746F00A7606A /* TSNSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNSettingsView.h; path = Code/UI/TSNSettingsView.h; sourceTree = "<group>"; };
-		D3D33CC31AD4746F00A7606A /* TSNSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNSettingsView.m; path = Code/UI/TSNSettingsView.m; sourceTree = "<group>"; };
-		D3D33CC41AD4746F00A7606A /* TSNSettingsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNSettingsViewDelegate.h; path = Code/UI/TSNSettingsViewDelegate.h; sourceTree = "<group>"; };
 		D3D33CCF1AD4748B00A7606A /* TSNPeerBluetoothContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNPeerBluetoothContext.h; path = Code/PeerBluetoothContext/TSNPeerBluetoothContext.h; sourceTree = "<group>"; };
 		D3D33CD01AD4748B00A7606A /* TSNPeerBluetoothContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNPeerBluetoothContext.m; path = Code/PeerBluetoothContext/TSNPeerBluetoothContext.m; sourceTree = "<group>"; };
 		D3D33CD11AD4748B00A7606A /* TSNPeerBluetoothContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNPeerBluetoothContextDelegate.h; path = Code/PeerBluetoothContext/TSNPeerBluetoothContextDelegate.h; sourceTree = "<group>"; };
@@ -100,13 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2720AA475CE53A3DDDC04E4C /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3A34D901AD46E76009FFB3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				D3A34D7C1AD46E76009FFB3A /* BackgroundBLE */,
-				D3A34D961AD46E76009FFB3A /* BackgroundBLETests */,
 				D3A34D7B1AD46E76009FFB3A /* Products */,
 				066C2A52948C6403CF46FAD0 /* Pods */,
 				52EF66B94943D85C5BE1E053 /* Frameworks */,
@@ -145,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				D3A34D7A1AD46E76009FFB3A /* BackgroundBLE.app */,
-				D3A34D931AD46E76009FFB3A /* BackgroundBLETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,23 +115,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D3A34D961AD46E76009FFB3A /* BackgroundBLETests */ = {
-			isa = PBXGroup;
-			children = (
-				D3A34D991AD46E76009FFB3A /* BackgroundBLETests.m */,
-				D3A34D971AD46E76009FFB3A /* Supporting Files */,
-			);
-			path = BackgroundBLETests;
-			sourceTree = "<group>";
-		};
-		D3A34D971AD46E76009FFB3A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3A34D981AD46E76009FFB3A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D3BF56171AD472DE00AEF2EB /* Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,8 +122,6 @@
 				D3D33C961AD473A800A7606A /* AppContext */,
 				D3BF561B1AD4730C00AEF2EB /* AppDelegate */,
 				D3D33C9A1AD473C300A7606A /* Extensions */,
-				D3D33CA41AD473F800A7606A /* LocationContext */,
-				D3D33CA91AD4744500A7606A /* Peer */,
 				D3D33CCE1AD4748000A7606A /* PeerBluetoothContext */,
 				D3D33CAD1AD4746300A7606A /* UI */,
 			);
@@ -239,25 +167,6 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		D3D33CA41AD473F800A7606A /* LocationContext */ = {
-			isa = PBXGroup;
-			children = (
-				D3D33CA51AD4741000A7606A /* TSNLocationContext.h */,
-				D3D33CA61AD4741000A7606A /* TSNLocationContext.m */,
-				D3D33CA71AD4741000A7606A /* TSNLocationContextDelegate.h */,
-			);
-			name = LocationContext;
-			sourceTree = "<group>";
-		};
-		D3D33CA91AD4744500A7606A /* Peer */ = {
-			isa = PBXGroup;
-			children = (
-				D3D33CAA1AD4745200A7606A /* TSNPeer.h */,
-				D3D33CAB1AD4745200A7606A /* TSNPeer.m */,
-			);
-			name = Peer;
-			sourceTree = "<group>";
-		};
 		D3D33CAD1AD4746300A7606A /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,25 +174,8 @@
 				D3D33CAF1AD4746F00A7606A /* TSNAppView.m */,
 				D3D33CB01AD4746F00A7606A /* TSNAppViewController.h */,
 				D3D33CB11AD4746F00A7606A /* TSNAppViewController.m */,
-				D3D33CB21AD4746F00A7606A /* TSNAppViewDelegate.h */,
 				D3D33CB31AD4746F00A7606A /* TSNAppWindow.h */,
 				D3D33CB41AD4746F00A7606A /* TSNAppWindow.m */,
-				D3D33CB51AD4746F00A7606A /* TSNBubbleView.h */,
-				D3D33CB61AD4746F00A7606A /* TSNBubbleView.m */,
-				D3D33CB71AD4746F00A7606A /* TSNBubbleViewDelegate.h */,
-				D3D33CB81AD4746F00A7606A /* TSNBubbleViewTableViewCell.h */,
-				D3D33CB91AD4746F00A7606A /* TSNBubbleViewTableViewCell.m */,
-				D3D33CBA1AD4746F00A7606A /* TSNBubbleViewTableViewCellDelegate.h */,
-				D3D33CBB1AD4746F00A7606A /* TSNMeAnnotation.h */,
-				D3D33CBC1AD4746F00A7606A /* TSNMeAnnotation.m */,
-				D3D33CBD1AD4746F00A7606A /* TSNNearbyPeersView.h */,
-				D3D33CBE1AD4746F00A7606A /* TSNNearbyPeersView.m */,
-				D3D33CBF1AD4746F00A7606A /* TSNNearbyPeersViewDelegate.h */,
-				D3D33CC01AD4746F00A7606A /* TSNPeerAnnotation.h */,
-				D3D33CC11AD4746F00A7606A /* TSNPeerAnnotation.m */,
-				D3D33CC21AD4746F00A7606A /* TSNSettingsView.h */,
-				D3D33CC31AD4746F00A7606A /* TSNSettingsView.m */,
-				D3D33CC41AD4746F00A7606A /* TSNSettingsViewDelegate.h */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -328,24 +220,6 @@
 			productReference = D3A34D7A1AD46E76009FFB3A /* BackgroundBLE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3A34D921AD46E76009FFB3A /* BackgroundBLETests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3A34DA01AD46E76009FFB3A /* Build configuration list for PBXNativeTarget "BackgroundBLETests" */;
-			buildPhases = (
-				D3A34D8F1AD46E76009FFB3A /* Sources */,
-				D3A34D901AD46E76009FFB3A /* Frameworks */,
-				D3A34D911AD46E76009FFB3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3A34D951AD46E76009FFB3A /* PBXTargetDependency */,
-			);
-			name = BackgroundBLETests;
-			productName = BackgroundBLETests;
-			productReference = D3A34D931AD46E76009FFB3A /* BackgroundBLETests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,10 +237,6 @@
 							};
 						};
 					};
-					D3A34D921AD46E76009FFB3A = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = D3A34D791AD46E76009FFB3A;
-					};
 				};
 			};
 			buildConfigurationList = D3A34D751AD46E76009FFB3A /* Build configuration list for PBXProject "BackgroundBLE" */;
@@ -383,7 +253,6 @@
 			projectRoot = "";
 			targets = (
 				D3A34D791AD46E76009FFB3A /* BackgroundBLE */,
-				D3A34D921AD46E76009FFB3A /* BackgroundBLETests */,
 			);
 		};
 /* End PBXProject section */
@@ -394,13 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D33CD51AD4794500A7606A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3A34D911AD46E76009FFB3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,42 +308,18 @@
 			files = (
 				D3BF561E1AD4731900AEF2EB /* TSNAppDelegate.m in Sources */,
 				D3D33CA11AD473E600A7606A /* CBCentralManager+Extensions.m in Sources */,
-				D3D33CA81AD4741000A7606A /* TSNLocationContext.m in Sources */,
-				D3D33CCC1AD4746F00A7606A /* TSNPeerAnnotation.m in Sources */,
 				D3D33CA21AD473E600A7606A /* CBPeripheral+Extensions.m in Sources */,
 				D3D33CC51AD4746F00A7606A /* TSNAppView.m in Sources */,
-				D3D33CCA1AD4746F00A7606A /* TSNMeAnnotation.m in Sources */,
 				D3D33CC61AD4746F00A7606A /* TSNAppViewController.m in Sources */,
-				D3D33CC91AD4746F00A7606A /* TSNBubbleViewTableViewCell.m in Sources */,
-				D3D33CAC1AD4745200A7606A /* TSNPeer.m in Sources */,
-				D3D33CC81AD4746F00A7606A /* TSNBubbleView.m in Sources */,
 				D3D33C991AD473B400A7606A /* TSNAppContext.m in Sources */,
 				D3D33CA31AD473E600A7606A /* CBPeripheralManager+Extensions.m in Sources */,
 				D3BF561A1AD472F200AEF2EB /* main.m in Sources */,
 				D3D33CD21AD4748B00A7606A /* TSNPeerBluetoothContext.m in Sources */,
 				D3D33CC71AD4746F00A7606A /* TSNAppWindow.m in Sources */,
-				D3D33CCB1AD4746F00A7606A /* TSNNearbyPeersView.m in Sources */,
-				D3D33CCD1AD4746F00A7606A /* TSNSettingsView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3A34D8F1AD46E76009FFB3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3A34D9A1AD46E76009FFB3A /* BackgroundBLETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D3A34D951AD46E76009FFB3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3A34D791AD46E76009FFB3A /* BackgroundBLE */;
-			targetProxy = D3A34D941AD46E76009FFB3A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D3A34D9B1AD46E76009FFB3A /* Debug */ = {
@@ -584,40 +422,6 @@
 			};
 			name = Release;
 		};
-		D3A34DA11AD46E76009FFB3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BackgroundBLETests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundBLE.app/BackgroundBLE";
-			};
-			name = Debug;
-		};
-		D3A34DA21AD46E76009FFB3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BackgroundBLETests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundBLE.app/BackgroundBLE";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -635,15 +439,6 @@
 			buildConfigurations = (
 				D3A34D9E1AD46E76009FFB3A /* Debug */,
 				D3A34D9F1AD46E76009FFB3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3A34DA01AD46E76009FFB3A /* Build configuration list for PBXNativeTarget "BackgroundBLETests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3A34DA11AD46E76009FFB3A /* Debug */,
-				D3A34DA21AD46E76009FFB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

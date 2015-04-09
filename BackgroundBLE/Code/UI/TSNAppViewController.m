@@ -28,10 +28,6 @@
 #import "TSNAppViewController.h"
 #import "TSNAppView.h"
 
-// TSNAppViewController (TSNAppViewDelegate) interface.
-@interface TSNAppViewController (TSNAppViewDelegate) <TSNAppViewDelegate>
-@end
-
 // TSNAppViewController (Internal) interface.
 @interface TSNAppViewController (Internal)
 @end
@@ -58,7 +54,6 @@
     
     // Allocate and initialize the app view.
     _appView = [[TSNAppView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [_appView setDelegate:(id<TSNAppViewDelegate>)self];
     
     // Done.
 	return self;
@@ -74,19 +69,15 @@
 // Returns the supported interface orientations.
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskLandscapeRight;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 // Returns a value which indicates whether the view should autorotate.
 - (BOOL)shouldAutorotate
 {
-    return YES;
+    return NO;
 }
 
-@end
-
-// TSNAppViewController (TSNAppViewDelegate) implementation.
-@implementation TSNAppViewController (TSNAppViewDelegate)
 @end
 
 // TSNAppViewController (Internal) implementation.

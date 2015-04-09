@@ -33,9 +33,6 @@
 
 // TSNAppWindow implementation.
 @implementation TSNAppWindow
-{
-@private
-}
 
 // Class initializer.
 - (instancetype)initWithFrame:(CGRect)frame
